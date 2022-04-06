@@ -6,6 +6,8 @@ prereq: need python3 and nodejs installed
 - inside the app folder run "npm install"
 - inside the atm folder run "npm install"
 
+- npm install --global expo-cli
+
 download the expo go app on the app store to emulate the app
 
 ## Setup network configurations
