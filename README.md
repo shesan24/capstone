@@ -24,6 +24,6 @@ on 3 seperate terminals
 - then start app inside the app folder with "expo start"
 - then start atm inside the atm folder with "npm start"
 
-test if backend working by going to: http://{ip}:5000/api/dummy
-test if app working by going to: http://localhost:19002
-test if atm working by going to: http://localhost:3000
+- test if backend working by going to: http://{ip}:5000/api/dummy
+- test if app working by going to: http://localhost:19002
+- test if atm working by going to: http://localhost:3000
