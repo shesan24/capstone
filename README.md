@@ -12,7 +12,7 @@ download the expo go app on the app store to emulate the app
 
 - connect to wifi on computer and same wifi on phone
 - set wifi to private on computer by right clicking on the wifi connection, going to properties and changing to private
-- update the ip on all the components at the top of each file
+- update the ip on all the components at the top of each file (ipconfig on the terminal and fine the corresponding ip for the wifi network)
   - inside the backend folder, update the ip in app.py
   - inside the app folder, update the ip in /api/mock.js
   - inside the atm folder, update the ip in /src/components/QRscanner.js
@@ -25,6 +25,7 @@ on 3 seperate terminals
 - then start app inside the app folder with "expo start"
 - then start atm inside the atm folder with "npm start"
 
+once the components are started
 
 - test if backend working by going to: http://{ip}:5000/api/dummy
 - test if app working by going to: http://localhost:19002, then scanning the QR code from that page on the expo go app to open it on your phone
