@@ -1,0 +1,8 @@
+flask
+flask_restx
+flask_cors
+pytest
+pymongo
+bcrypt
+pymongo[srv]
+
