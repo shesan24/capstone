@@ -5,4 +5,4 @@ pytest
 pymongo
 bcrypt
 pymongo[srv]
-
+certifi
