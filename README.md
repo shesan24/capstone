@@ -1,11 +1,12 @@
 ## Installation
 
 prereq: need python3 and nodejs installed
-on 3 seperate terminals
 
 - inside the backend folder run "pip install -r requirements.txt"
 - inside the app folder run "npm install"
 - inside the atm folder run "npm install"
+
+download the expo go app on the app store to emulate the app
 
 ## Setup network configurations
 
@@ -24,6 +25,7 @@ on 3 seperate terminals
 - then start app inside the app folder with "expo start"
 - then start atm inside the atm folder with "npm start"
 
+
 - test if backend working by going to: http://{ip}:5000/api/dummy
-- test if app working by going to: http://localhost:19002
+- test if app working by going to: http://localhost:19002, then scanning the QR code from that page on the expo go app to open it on your phone
 - test if atm working by going to: http://localhost:3000
