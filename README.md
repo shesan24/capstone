@@ -1,12 +1,12 @@
 ## Installation
 
-prereq: need python3 and nodejs installed
+prereq: need python3 and nodejs installed and expo cli (npm install --global expo-cli)
 
 - inside the backend folder run "pip install -r requirements.txt"
 - inside the app folder run "npm install"
 - inside the atm folder run "npm install"
 
-- npm install --global expo-cli
+
 
 download the expo go app on the app store to emulate the app
 
